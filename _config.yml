@@ -1,325 +1,166 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
-
-# Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default"
-title                    : "Md. Mahdi Hasan"
-title_separator          : "-"
-name                     : &name "Md. Mahdi Hasan"
-description              : &description "Md. Mahdi Hasan's academic portfolio — Deep Learning, Computer Vision, and Edge AI research"
-url                      : https://mahdihasan01.github.io   # ← replace with your actual GitHub Pages URL
-baseurl                  : ""
-repository               : "mahdihasan01/mahdihasan01.github.io"   # ← replace with your actual GitHub username/repo
-
-# Site Author - The following control what appear as part of the author content on the side bar.
-author:
-  # Biographic information
-  avatar           : "profile.png"   # ← replace with your actual photo filename in /images/
-  name             : "Md. Mahdi Hasan"
-  pronouns         :
-  bio              : "CSE graduate and Lab Instructor researching deep learning, computer vision, and edge AI for UAV-based precision agriculture"
-  location         : "Dhaka, Bangladesh"
-  employer         : "North South University"
-  uri              :
-  email            : "mahdi.hasan01@northsouth.edu"
-
-  # Academic websites
-  academia         :
-  arxiv            :
-  googlescholar    :   # ← add your Google Scholar profile URL if you have one
-  inspire-hep      :
-  impactstory      :
-  orcid            :   # ← add your ORCID if you have one
-  semantic         :
-  ssrn             :
-  pubmed           :
-  researchgate     :
-  scopus           :
-  zotero           :
-
-  # Repositories and software development
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  github           :   # ← add your GitHub username
-  kaggle           :
-  stackoverflow    :
-
-  # Social media
-  artstation       :
-  bluesky          :
-  facebook         :
-  flickr           :
-  foursquare       :
-  goodreads        :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         :   # ← add your LinkedIn username
-  mastodon         :
-  medium           :
-  pinterest        :
-  soundcloud       :
-  steam            :
-  telegram         :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  wikipedia        :
-  xing             :
-  youtube          :
-  zhihu            :
-
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+# =========================
+# Md. Mahdi Hasan
+# =========================
 
 # Site Settings
-teaser                   :
-breadcrumbs              : false
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled"
-talkmap_link             : false
-comments:
-  provider               :
-  disqus:
-    shortname            :
-  discourse:
-    server               :
-  facebook:
-    appid                :
-    num_posts            :
-    colorscheme          :
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601"
-atom_feed:
-  hide                   : false
-  path                   :
+title: "Md. Mahdi Hasan"
+name: "Md. Mahdi Hasan"
+description: "AI/ML Researcher | Computer Vision | Deep Learning | Edge AI"
+url: "https://YOURUSERNAME.github.io"
+baseurl: ""
+
+# Author
+author:
+  name: "Md. Mahdi Hasan"
+  avatar: ""
+  bio: "AI/ML Researcher and Lab Instructor working on Deep Learning, Computer Vision, Efficient AI, and Edge AI."
+  location: "Dhaka, Bangladesh"
+  email: "mahdi.hasan01@northsouth.edu"
+  
+# Social / Academic Profiles
+github: YOUR_GITHUB_USERNAME
+linkedin: YOUR_LINKEDIN_USERNAME
+google_scholar: YOUR_GOOGLE_SCHOLAR_ID
+
+# Research Interests
+research_interests:
+  - Deep Learning
+  - Computer Vision
+  - Visual Representation Learning
+  - Efficient and Multi-Modal AI
+  - Attention-Based Deep Learning
+  - Object Detection
+  - Image Understanding
+  - Image Forensics
+  - Explainable and Robust AI
+  - Resource-Efficient AI
+  - Edge AI
+  - Real-Time Intelligent Systems
+  - UAV-Based Precision Agriculture
 
 
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+# =========================
+# Build Settings
+# =========================
 
-
-# Social Sharing
-twitter:
-  username               : &twitter
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :
-og_description           : "Md. Mahdi Hasan — Deep Learning, Computer Vision, and Edge AI researcher"
-social:
-  type                   : Person
-  name                   :
-  links:
-
-
-# Analytics
-analytics:
-  provider               :  "false"
-  google:
-    tracking_id          :
-
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-  - files
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .github
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - CHANGELOG
-  - Capfile
-  - config
-  - Dockerfile
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - local
-  - log
-  - node_modules
-  - package.json*
-  - Rakefile
-  - README
-  - tmp
-  - vendor
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
 markdown: kramdown
 highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+
+permalink: /:categories/:title/
+
+timezone: Asia/Dhaka
+
+# =========================
+# Plugins
+# =========================
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jemoji
 
 
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+# =========================
+# Pagination
+# =========================
+
+paginate: 5
+paginate_path: /page:num/
 
 
-# These settings control the types of collections used by the template
+# =========================
+# Archives
+# =========================
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
+
+# =========================
+# Collections
+# =========================
+
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
-    permalink: /:collection/:path/
-  portfolio:
+    permalink: /publications/:path/
+
+  projects:
     output: true
-    permalink: /:collection/:path/
-  talks:
+    permalink: /projects/:path/
+
+  teaching:
     output: true
-    permalink: /:collection/:path/
+    permalink: /teaching/:path/
 
 
-# These settings control how pages and collections are included in the site
+# =========================
+# Defaults
+# =========================
+
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+
+  # Pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+
+  # Publications
   - scope:
       path: ""
       type: publications
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+
+  # Projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
+
+  # Teaching
   - scope:
       path: ""
-      type: talks
+      type: teaching
     values:
-      layout: talk
+      layout: single
       author_profile: true
-      share: true
 
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Etc/UTC
-
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-
+# =========================
 # HTML Compression
+# =========================
+
 compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# =========================
+# Exclude from Build
+# =========================
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - "*.sh"
+  - "*.py"
+  - "*.ipynb"
