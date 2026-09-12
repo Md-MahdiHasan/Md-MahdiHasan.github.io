@@ -1,14 +1,10 @@
 ---
-title: "Paper Title Number 1"
+title: "Real-Time UAV-Based Multi-Task Detection of Weeds and Pests Using a Multi-Head YOLO Architecture on Edge Devices"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/uav-multihead-yolo-weeds-pests
+date: 2026-01-01
+venue: 'Ongoing Manuscript'
+paperurl: ''
+citation: 'M. M. Hasan, A. Rahman, T. Ferdoush, M. Hossain, and R. Khan, "Real-Time UAV-Based Multi-Task Detection of Weeds and Pests Using a Multi-Head YOLO Architecture on Edge Devices," Ongoing Manuscript.'
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+An edge-ready UAV-based deep learning system for real-time, simultaneous detection of weeds and pests using attention-enhanced multi-head YOLO architectures, achieving up to 91% mAP for insect detection and demonstrated on Raspberry Pi 4 for precision agriculture.
