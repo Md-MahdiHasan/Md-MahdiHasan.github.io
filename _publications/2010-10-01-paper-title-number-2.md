@@ -1,14 +1,10 @@
 ---
-title: "Paper Title Number 2"
+title: "HyDAE-Net: A Hybrid Dual-Stream Deformable Attention Framework for Efficient Localized Image Forgery Detection"
 collection: publications
-category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/hydae-net-forgery-detection
+date: 2026-01-01
+venue: 'Under Review'
+paperurl: ''
+citation: 'M. Sadat, M. Rahman, M. M. Hasan, M. M. I. Khan, and R. Khan, "HyDAE-Net: A Hybrid Dual-Stream Deformable Attention Framework for Efficient Localized Image Forgery Detection," Under Review.'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+An efficient multimodal deep learning framework for localized image forgery detection, fusing RGB ConvNeXtV2 semantic features with ConvFormer noise-artifact features through deformable cross-modal attention, achieving 0.83 IoU and 0.87 F1-score on the BR-Gen dataset while reducing model size by 35% compared with state-of-the-art models.
