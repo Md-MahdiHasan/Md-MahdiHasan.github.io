@@ -1,16 +1,18 @@
 title: "Md. Mahdi Hasan"
 name: "Md. Mahdi Hasan"
-description: "PhD Applicant | Computer Science and Engineering | Lab instructor | North South University"
+description: "PhD Applicant | Computer Science and Engineering | Lab Instructor | North South University"
+
 url: "https://md-mahdihasan.github.io"
 repository: "https://github.com/Md-MahdiHasan/Md-MahdiHasan.github.io"
 
 author:
   name: "Md. Mahdi Hasan"
+  avatar: "/images/Md. Mahdi Hasan_P.JPG"
   bio: "Researcher interested in Deep Learning, Computer Vision, and Edge AI for real-time intelligent systems"
   location: "Dhaka, Bangladesh"
   employer: "North South University"
   email: "mahdi.hasan01@northsouth.edu"
-  googlescholar: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=ZOZP5uoAAAAJ"   
-  orcid: "https://orcid.org/0009-0001-6536-5639"          
-  linkedin: "https://www.linkedin.com/in/md-mahdi-hasan2212039/?locale=bn"      
-  github: "https://github.com/Md-MahdiHasan"          # not provided — add your GitHub username
+  googlescholar: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=ZOZP5uoAAAAJ"
+  orcid: "https://orcid.org/0009-0001-6536-5639"
+  linkedin: "https://www.linkedin.com/in/md-mahdi-hasan2212039/"
+  github: "https://github.com/Md-MahdiHasan"
